@@ -1,0 +1,17 @@
+{
+  "name": "docker-controller",
+  "version": "1.0.0",
+  "description": "a simple express app to restart a container in machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Ritwik Raj Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.1"
+  }
+}
